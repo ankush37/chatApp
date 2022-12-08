@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ChatApp
-=======
 # ChatApp
 
 ## Overview
@@ -18,4 +15,3 @@ Command-line tools are often preferred over GUI applications by software develop
 2. Switch to different terminal on same machine or on different machine connected to same network without stopping server.
 3. Run client.py and follow the instructions.
 
->>>>>>> 583b19a16049bfdb36fc9850c1ed8da92c4b5db3
