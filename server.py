@@ -105,10 +105,12 @@ def threaded(c):
 		except Exception as e:
 			break
 
-	rooms[user_to_room[c]].remove(c)
-	del user_to_room[c]
+
 	lock.acquire()
 	broadcast(f"{names[c]} left".encode("utf8"),c)
+	rooms[user_to_room[c]].remove(c)
+	del user_to_room[c]
+		
 	del names[c]
 
 	c.close()
